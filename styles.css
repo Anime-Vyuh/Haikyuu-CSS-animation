@@ -1,0 +1,170 @@
+body {
+    background-image: url("./imgs/kagehina.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: initial;
+    overflow: hidden;
+}
+
+.kagehina img {
+    width: 75px;
+    animation: fly 4s linear 0s infinite;
+    -webkit-animation: fly 4s linear 0s infinite;
+    -moz-animation: fly 4s linear 0s infinite;
+}
+
+.karasuno img {
+    width: 180px;
+    animation: fly_high 4s linear 0s infinite;
+    -webkit-animation: fly_high 4s linear 0s infinite;
+    -moz-animation: fly_high 4s linear 0s infinite;
+}
+
+.kagehina,
+.karasuno {
+    width: 100%;
+    position: absolute;
+}
+
+.kagehina {
+    left: 20px;
+    top: -80px;
+    opacity: 0.8;
+    display: flex;
+}
+
+.karasuno {
+    bottom: -290px;
+    opacity: 0.9;
+    display: flex;
+}
+
+@keyframes fly {
+    0% {
+        transform: translateY(10px);
+        opacity: 0;
+    }
+    25% {
+        opacity: 1;
+    }
+    50% {
+        transform: translateY(200px);
+        opacity: 1;
+    }
+    75% {
+        opacity: 1;
+    }
+    100% {
+        transform: translateY(420px);
+        opacity: 0;
+    }
+}
+
+@keyframes fly_high {
+    0% {
+        transform: translateY(-180px);
+        opacity: 0;
+    }
+    25% {
+        transform: translateY(-360px);
+        opacity: 1;
+    }
+    50% {
+        transform: translateY(-510px);
+        opacity: 0;
+    }
+    75% {
+        transform: translateY(-680px);
+        opacity: 1;
+    }
+    100% {
+        transform: translateY(-830px);
+        opacity: 1;
+    }
+}
+
+
+/* Individual delay for Feather Annimation */
+
+.kagehina img:nth-child(1) {
+    animation-delay: 1.9s;
+}
+
+.kagehina img:nth-child(2) {
+    animation-delay: 2s;
+}
+
+.kagehina img:nth-child(3) {
+    animation-delay: 5s;
+}
+
+.kagehina img:nth-child(4) {
+    animation-delay: 0s;
+}
+
+.kagehina img:nth-child(5) {
+    animation-delay: 1.2s;
+}
+
+.kagehina img:nth-child(6) {
+    animation-delay: 4s;
+}
+
+.kagehina img:nth-child(7) {
+    animation-delay: 2.5s;
+}
+
+.kagehina img:nth-child(8) {
+    animation-delay: 1.5s;
+}
+
+.kagehina img:nth-child(9) {
+    animation-delay: 4.5s;
+}
+
+.kagehina img:nth-child(10) {
+    animation-delay: 3.5s;
+}
+
+.kagehina img:nth-child(11) {
+    animation-delay: 1.5s;
+}
+
+.kagehina img:nth-child(12) {
+    animation-delay: 1.7s;
+}
+
+.kagehina img:nth-child(13) {
+    animation-delay: 2.3s;
+}
+
+.kagehina img:nth-child(14) {
+    animation-delay: 5.5s;
+}
+
+
+/* Individual delay for Crows Annimation */
+
+.karasuno img:nth-child(1) {
+    animation-delay: 0s;
+}
+
+.karasuno img:nth-child(2) {
+    animation-delay: 3s;
+}
+
+.karasuno img:nth-child(3) {
+    animation-delay: 5s;
+}
+
+.karasuno img:nth-child(4) {
+    animation-delay: 7s;
+}
+
+.karasuno img:nth-child(5) {
+    animation-delay: 8s;
+}
+
+.karasuno img:nth-child(6) {
+    animation-delay: 7s;
+}
